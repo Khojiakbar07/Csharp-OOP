@@ -54,11 +54,13 @@ namespace OOP
                     Console.WriteLine(s[i]);
                 }
             //---------
+            Console.WriteLine("Please enter an email: ");
             for (int i=0; i<s.Length; i++)
             {
                 if (arraylist.getEmail().contains("gmail.com"))
                     Console.WriteLine(arraylist);
             }
+            Console.ReadLine();
         }
     }
 }
